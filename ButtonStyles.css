@@ -1,0 +1,28 @@
+
+button, input[type="submit"] {
+    background-color: #007BFF; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #0056b3; 
+}
+
+button:active, input[type="submit"]:active {
+    background-color: #004080; 
+}
+
+
+button.secondary, input[type="button"].secondary {
+    background-color: #6c757d; 
+    color: #fff;
+}
+
+button.secondary:hover, input[type="button"].secondary:hover {
+    background-color: #5a6268;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="MyStyles.css">
+    <link rel="stylesheet" href="FormStyles.css">
+    <link rel="stylesheet" href="ButtonStyles.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Our Team</h1>
+        <nav>
+            <ul>
+                <li><a href="Home2.html"">Home</a></li>
+                <li><a href="About2.html">About Us</a></li>
+                <li><a href="Contact2.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Reach Out to Us</h2>
+            <form action="submit_contact.php" method="POST">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" required></textarea><br>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Our Website. All rights secured.</p>
+    </footer>
+</body>
+</html>

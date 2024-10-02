@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="MyStyles.css">
+    <link rel="stylesheet" href="FormStyles.css">
+    <link rel="stylesheet" href="ButtonStyles.css">
+</head>
+<body>
+    <header>
+        <h1>Login to Your Account</h1>
+        <nav>
+            <ul>
+                <li><a href="Home2.html"">Home</a></li>
+                <li><a href="RegistrationPage.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Login</h2>
+            <form action="login.php" method="POST">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required><br>
+                <button type="submit">Login</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Our Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
